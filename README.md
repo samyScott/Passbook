@@ -1,5 +1,6 @@
 # Passbook-project
-基于Spring Boot + Kafka + Mysql + Redis的卡包分发/使用的卡包demo。
+Passbook demo based on Spring Boot + Kafka + Mysql + Redis.
 
-该demo包括商户模块和卡包模块；商户模块主要包括注册商户和下发优惠劵模板功能，卡包模块主要包括获取用户优惠劵，用户使用优惠劵，
-用户领取优惠劵，创建评论，优惠劵模板入库等功能。
+The demo includes a merchants module and a passbook module. The merchants module mainly includes the functions of registering merchants and issuing pass templates. The passbook module mainly includes functions such as obtaining pass, using pass, receiving pass, creating feedback and or.
+
+The project provides the rest interface.
