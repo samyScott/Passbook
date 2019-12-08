@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Merchants
+  datasource:
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    password: csy123
+    url: jdbc:mysql://127.0.0.1:3306/passbook?characterEncoding=UTF-8&useSSL=false
+  kafka:
+    bootstrap-servers: 47.93.195.247:9092
+    consumer:
+      group-id: passbook
+    listener:
+      concurrency: 4
+
+server:
+  port: 8080
+
+logging:
+  file: merchants.log
+  level:
+    root: info
