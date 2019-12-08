@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.data.hbase.quorum",
+      "type": "java.lang.String",
+      "description": "Description for spring.data.hbase.quorum."
+    },
+    {
+      "name": "spring.data.hbase",
+      "type": "java.lang.String",
+      "description": "Description for spring.data.hbase."
+    }
+  ] }
