@@ -1,2 +1,5 @@
-# Passbook
-This is a concessionary project, divided into merchants and card packages at both ends.
+# 卡包项目
+分为商户和优惠劵两个部分部署，两端通过kafka通信。
+商户端功能包括
+- 平台注册商户功能
+- 下发优惠劵功能，即向kafka传入优惠劵模板信息
