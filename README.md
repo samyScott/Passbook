@@ -7,7 +7,7 @@ The project provides the rest interface.
 
 # About the example
 - Spring Boot 2.1.7.RELEASE
-- Kafka 2.1.1.RELEASE
+- Kafka 2.11.RELEASE
 - Redis 3.2.10.RELEASE
 - Mysql 5.7.RELEASE
 
